@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <form method="POST" action="https://formspree.io/olena.krasheninnikova@gmail.com">
+            <label>Ваше имя:
+                <input type="text" placeholder="Ваше имя">
+            </label>
+            <br>
+            <label>Ваш возраст:
+                <input type="text" placeholder="Ваш возраст">
+            </label>
+            <br>
+            <br>
+            <label>Город:
+                <input type="text" placeholder="Город">
+            </label>
+            <br>
+            <label for="user-tel">Номер телефона:</label>
+                <input id="user-tel" name="telephone" type="text" placeholder="Номер телефона">
+            <br>
+            <label>Ваш e-mail:
+                <input type="text" placeholder="Ваш e-mail">
+            </label>
+            <br>
+            <label>Ваш пол?
+                <input type="radio" name="gender" value="male">
+                Мужчина
+            </label>
+            <label>	
+                <input type="radio" name="gender" value="female">
+                Женщина
+            </label>
+            <br>
+            <label>Какой вид консультации вам более удобен?</label>
+            <label>
+                <input type="radio" name="type" value="meeting">Очная консультация в г. Львов
+            </label>
+            <label>	
+                <input type="radio" name="type" value="skype">Skype-консультация
+            </label>
+            <label>
+                <input type="radio" name="type" value="messenger">Messenger
+            </label>
+            <br>
+             <label>Какой формат игры вы предпочитаете?</label>
+            <label>
+                <input type="radio" name="form" value="group">Групповой
+            </label>
+            <label>	
+                <input type="radio" name="form" value="individual">Индивидуальный
+            </label>
+            <label>	
+                <input type="radio" name="form" value="both">Оба варианта
+            </label>
+            <br>
+            <label>Что вы хотите заказать?</label>
+                <select name="Что вы хотите заказать" size=8 multiple>
+                    <option value="kupidon-ind">Игра Купидон. Индивидуальный формат</option>
+                    <option value="kupidon-group">Игра Купидон. Групповой формат</option>
+                    <option value="kupidon-dia">Купидон. Диагностика</option>
+                    <option value="22arkana-ind">Игра 22 аркана. Индивидуальный формат</option>
+                    <option value="22arkana-group">Игра 22 аркана. Групповой формат</option>
+                    <option value="Storis">Игра Сторис для 8 человек</option>
+                    <option value="Matrix">Психологический портрет и предназначение по дате рождения</option>
+                    <option value="Tarot">Консультация на картах таро</option>
+                </select>
+            <br>
+            <label>Ваш запрос на игру или консультацию</label>
+                <textarea name="message" rows="5" cols="30">
+                </textarea>
+            <br>
+            <label>Ваши вопросы</label>
+                <textarea name="message" rows="5" cols="30">
+                </textarea>
+            <br>
+            <input type="Submit"> <input type="Reset">
+        </form>
+    
+</body>
+</html>
